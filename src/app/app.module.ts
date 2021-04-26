@@ -8,12 +8,14 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import { ColorsGridComponent } from './colors-grid/colors-grid.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
+import { VoteResultComponent } from './vote-result/vote-result.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ColorsGridComponent,
-    NavMenuComponent
+    NavMenuComponent,
+    VoteResultComponent
   ],
   imports: [
     BrowserModule,

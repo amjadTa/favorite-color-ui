@@ -1,0 +1,12 @@
+<table *ngIf="showColors">
+    <tr>
+      <th>Color</th>
+      <th>Votes</th>
+    </tr>
+    <tr *ngFor="let item of colors; let index = index">
+      <td>{{item.colorName}}</td>
+      <td>{{item.colorVote}}</td>
+    </tr>
+</table>
+
+<div *ngIf="!showColors">No Data Yet</div>
