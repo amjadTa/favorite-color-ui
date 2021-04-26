@@ -1,0 +1,62 @@
+<div class="container">
+    <div class="row">
+        <div class="red color-box" (click)="colorVote('red')">
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" [style.width]="progress_width.red + '%'">
+                  {{votesCount.red}}
+                </div>
+              </div>
+        </div>
+        <div class="blue color-box" (click)="colorVote('blue')">
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" [style.width]="progress_width.blue + '%'">
+                  {{votesCount.blue}}
+                </div>
+              </div>
+        </div>
+        <div class="green color-box" (click)="colorVote('green')">
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" [style.width]="progress_width.green + '%'">
+                  {{votesCount.green}}
+                </div>
+              </div>
+        </div>
+        <div class="w-100 h-100"></div>
+        <div class="black color-box" (click)="colorVote('black')">
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" [style.width]="progress_width.black + '%'">
+                  {{votesCount.black}}
+                </div>
+              </div>
+        </div>
+        <div class="yellow color-box" (click)="colorVote('yellow')">
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" [style.width]="progress_width.yellow + '%'">
+                  {{votesCount.yellow}}
+                </div>
+              </div>
+        </div>
+        <div class="gray color-box" (click)="colorVote('gray')">
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" [style.width]="progress_width.gray + '%'">
+                  {{votesCount.gray}}
+                </div>
+              </div>
+        </div>
+        <div class="w-100"></div>
+        <div class="ping color-box" (click)="colorVote('ping')">
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" [style.width]="progress_width.ping + '%'">
+                  {{votesCount.ping}}
+                </div>
+              </div>
+        </div>
+        <div class="orange color-box" (click)="colorVote('orange')">
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" [style.width]="progress_width.orange + '%'">
+                  {{votesCount.orange}}
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
