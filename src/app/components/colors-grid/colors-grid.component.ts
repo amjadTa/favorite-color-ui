@@ -1,6 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
-import { ColorsVoteService } from '../services/colors-vote.service';
+import { ColorsVoteService } from 'src/app/services/colors-vote.service';
 
 @Component({
   selector: 'app-colors-grid',
